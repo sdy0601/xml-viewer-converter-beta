@@ -1,50 +1,52 @@
-# XML Viewer & Converter — Closed Beta
+# XML Viewer & Converter — Kapalı Beta
 
-This repository is used only to distribute closed-beta Windows builds of **XML Viewer & Converter**.
+Bu repo yalnızca **XML Viewer & Converter** uygulamasının kapalı beta Windows sürümlerini dağıtmak için kullanılmaktadır.
 
-## Current beta
+## Güncel beta
 
-- Version: **v0.1.0-beta**
+- Sürüm: **v0.1.0-beta**
 - Platform: **Windows x64**
-- Distribution: portable ZIP
-- No installer required
-- Works locally/offline
-- XML and invoice files are not uploaded to a server by the application
+- Dağıtım: Taşınabilir ZIP
+- Kurulum gerektirmez
+- Yerel/offline çalışır
+- XML ve fatura dosyaları uygulama tarafından herhangi bir sunucuya yüklenmez
 
-## Download
+## İndirme
 
-Use the **Releases** section of this repository and download the latest Windows ZIP asset.
+Bu reponun **Releases** bölümünden en güncel Windows ZIP dosyasını indirin.
 
-Do not run the application directly from inside the ZIP. Extract the ZIP to a normal folder first, then launch:
+Uygulamayı ZIP dosyasının içinden doğrudan çalıştırmayın. Önce ZIP dosyasını normal bir klasöre çıkarın, ardından:
 
 `XML Viewer & Converter.exe`
 
-A quick-start file and sample XML are included in the package.
+dosyasını çalıştırın.
 
-## What to test
+Paketin içinde hızlı başlangıç dosyası ve örnek XML bulunmaktadır.
 
-Please try the application with your own UBL / UBL-TR XML invoices and check:
+## Neleri test etmenizi istiyoruz?
 
-- invoice preview
-- opening/replacing XML files
-- PDF export
-- general layout and readability
+Kendi UBL / UBL-TR XML faturalarınızla uygulamayı deneyip özellikle şunları kontrol edin:
 
-If something fails, please report:
+- fatura önizlemesi
+- XML dosyası açma / değiştirme
+- PDF olarak kaydetme
+- genel görünüm ve okunabilirlik
 
-1. what you did,
-2. what happened,
-3. what you expected,
-4. a screenshot if possible.
+Bir sorunla karşılaşırsanız lütfen şu bilgileri iletin:
 
-## Beta notice
+1. Ne yaptınız?
+2. Ne oldu?
+3. Ne olmasını bekliyordunuz?
+4. Mümkünse ekran görüntüsü
 
-This is an early closed-beta build intended for a small test group. Please do not redistribute the package yet.
+## Beta notu
 
-The application is currently unsigned, so Windows may show a security/reputation warning on some computers.
+Bu sürüm küçük bir test grubu için hazırlanmış erken aşama kapalı beta sürümüdür. Lütfen şimdilik paketi başkalarıyla paylaşmayın.
 
-## Integrity
+Uygulama henüz dijital olarak imzalanmamıştır. Bu nedenle bazı bilgisayarlarda Windows güvenlik/itibar uyarısı gösterebilir.
 
-Expected SHA-256 for the current beta ZIP:
+## Dosya bütünlüğü
+
+Güncel beta ZIP dosyasının beklenen SHA-256 değeri:
 
 `6ba0ecf9ab53eb7b498852f4d4cde0a6196b464ca0cc92ac0b87a2a6bc0b2d67`
