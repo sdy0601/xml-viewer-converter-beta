@@ -1,52 +1,53 @@
 # XML Viewer & Converter — Kapalı Beta
 
-Bu repo yalnızca **XML Viewer & Converter** uygulamasının kapalı beta Windows sürümlerini dağıtmak için kullanılmaktadır.
+Bu sayfa, **XML Viewer & Converter** uygulamasının test sürümünü indirmek içindir.
 
-## Güncel beta
+## ⬇️ Uygulamayı indir
 
-- Sürüm: **v0.1.0-beta**
-- Platform: **Windows x64**
-- Dağıtım: Taşınabilir ZIP
-- Kurulum gerektirmez
-- Yerel/offline çalışır
-- XML ve fatura dosyaları uygulama tarafından herhangi bir sunucuya yüklenmez
+Aşağıdaki bağlantıya tıklayın:
 
-## İndirme
+### [Windows için XML Viewer & Converter'ı indir](https://github.com/sdy0601/xml-viewer-converter-beta/releases/download/v0.1.0-beta/XML-Viewer-Converter-v0.1.0-beta-windows-x64-FINAL.zip)
 
-Bu reponun **Releases** bölümünden en güncel Windows ZIP dosyasını indirin.
+Bağlantıya tıkladığınızda ZIP dosyası bilgisayarınıza inecektir.
 
-Uygulamayı ZIP dosyasının içinden doğrudan çalıştırmayın. Önce ZIP dosyasını normal bir klasöre çıkarın, ardından:
+## Nasıl çalıştırılır?
 
-`XML Viewer & Converter.exe`
+1. İnen **ZIP dosyasını** bulun.
+2. ZIP dosyasına sağ tıklayıp **Tümünü Ayıkla / Extract All** seçeneğini kullanın.
+3. Açılan klasörün içindeki **XML Viewer & Converter.exe** dosyasına çift tıklayın.
+4. Uygulama açıldığında XML faturanızı pencereye sürükleyebilir veya **XML Dosyası Seç** butonunu kullanabilirsiniz.
+5. İsterseniz faturayı **PDF olarak kaydedebilirsiniz**.
 
-dosyasını çalıştırın.
+> Uygulamayı ZIP dosyasının içinden doğrudan çalıştırmayın. Önce mutlaka bir klasöre çıkarın.
 
-Paketin içinde hızlı başlangıç dosyası ve örnek XML bulunmaktadır.
+## Sizden neyi test etmenizi istiyoruz?
 
-## Neleri test etmenizi istiyoruz?
+Kendi UBL / UBL-TR XML faturalarınızdan birkaçını deneyin ve özellikle şunlara bakın:
 
-Kendi UBL / UBL-TR XML faturalarınızla uygulamayı deneyip özellikle şunları kontrol edin:
+- Fatura düzgün görüntüleniyor mu?
+- Başka bir XML açınca doğru şekilde değişiyor mu?
+- PDF olarak kaydetme çalışıyor mu?
+- Yazılar, tablolar ve toplamlar okunaklı mı?
 
-- fatura önizlemesi
-- XML dosyası açma / değiştirme
-- PDF olarak kaydetme
-- genel görünüm ve okunabilirlik
+Bir sorun görürseniz bize sadece şunları iletmeniz yeterli:
 
-Bir sorunla karşılaşırsanız lütfen şu bilgileri iletin:
+- Ne yaptınız?
+- Ne oldu?
+- Mümkünse ekran görüntüsü
 
-1. Ne yaptınız?
-2. Ne oldu?
-3. Ne olmasını bekliyordunuz?
-4. Mümkünse ekran görüntüsü
+## Gizlilik
+
+Uygulama **yerel/offline çalışır**. Açtığınız XML ve fatura dosyaları uygulama tarafından herhangi bir sunucuya yüklenmez.
 
 ## Beta notu
 
-Bu sürüm küçük bir test grubu için hazırlanmış erken aşama kapalı beta sürümüdür. Lütfen şimdilik paketi başkalarıyla paylaşmayın.
+Bu sürüm küçük bir test grubu içindir. Lütfen şimdilik dosyayı başkalarıyla paylaşmayın.
 
-Uygulama henüz dijital olarak imzalanmamıştır. Bu nedenle bazı bilgisayarlarda Windows güvenlik/itibar uyarısı gösterebilir.
+Uygulama henüz dijital olarak imzalanmadığı için bazı bilgisayarlarda Windows güvenlik/itibar uyarısı gösterebilir.
 
-## Dosya bütünlüğü
+## Sürüm bilgisi
 
-Güncel beta ZIP dosyasının beklenen SHA-256 değeri:
-
-`6ba0ecf9ab53eb7b498852f4d4cde0a6196b464ca0cc92ac0b87a2a6bc0b2d67`
+- Sürüm: **v0.1.0-beta**
+- Platform: **Windows x64**
+- Kurulum gerektirmez
+- SHA-256: `6ba0ecf9ab53eb7b498852f4d4cde0a6196b464ca0cc92ac0b87a2a6bc0b2d67`
