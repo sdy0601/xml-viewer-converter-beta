@@ -27,6 +27,7 @@ Kendi UBL / UBL-TR XML faturalarınızdan birkaçını deneyin ve özellikle şu
 - Fatura düzgün görüntüleniyor mu?
 - Başka bir XML açınca doğru şekilde değişiyor mu?
 - PDF olarak kaydetme çalışıyor mu?
+- Faturanın kendi UBL-TR/XSLT görünümü doğru gösteriliyor mu?
 - Yazılar, tablolar ve toplamlar okunaklı mı?
 
 Bir sorun görürseniz bize sadece şunları iletmeniz yeterli:
@@ -50,4 +51,4 @@ Uygulama henüz dijital olarak imzalanmadığı için bazı bilgisayarlarda Wind
 - Sürüm: **v0.1.0-beta**
 - Platform: **Windows x64**
 - Kurulum gerektirmez
-- SHA-256: `6ba0ecf9ab53eb7b498852f4d4cde0a6196b464ca0cc92ac0b87a2a6bc0b2d67`
+- SHA-256: `ff216ad56bdc167f60813c09a784969016bf635aa834848716f128b67c5b96da`
