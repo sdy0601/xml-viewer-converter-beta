@@ -16,7 +16,7 @@ jobs:
       - name: Download run16 visual acceptance artifact bundle
         shell: pwsh
         run: |
-          $url = 'https://sdmntprnortheu.oaiusercontent.com/files/00000000-f480-81f4-983b-c908a9c388d5/raw?se=2026-09-23T07%3A38%3A29Z&sp=r&sv=2026-02-06&sr=b&scid=ead132d1-bd6d-5f97-8c33-d5845211632e&skoid=40ce4b34-a373-4a62-b0bf-44befe221915&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2026-09-23T06%3A55%3A11Z&ske=2026-09-24T06%3A55%3A11Z&sks=b&skv=2026-02-06&sig=28UiZ2DHsZNKXaOm%2Bt4pIjEgl4RPIEYraF3g6p6Y4Vg%3D'
+          $url = 'https://sdmntprnortheu.oaiusercontent.com/files/00000000-2898-81f4-96ef-0fb9c429676e/raw?se=2026-09-23T07%3A43%3A22Z&sp=r&sv=2026-02-06&sr=b&scid=b871ee3c-6314-5933-b384-35a23480147f&skoid=40ce4b34-a373-4a62-b0bf-44befe221915&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2026-09-23T03%3A04%3A39Z&ske=2026-09-24T03%3A04%3A39Z&sks=b&skv=2026-02-06&sig=WYWclVFFZcgLEjUWS1NPMz8CvMdid8BtEoFJdtFPJoI%3D'
           Invoke-WebRequest -Uri $url -OutFile run16-artifact.zip
           Expand-Archive -LiteralPath run16-artifact.zip -DestinationPath unpacked -Force
           $inner = Get-ChildItem -LiteralPath unpacked -Filter *.zip -File -Recurse | Select-Object -First 1
